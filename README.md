@@ -1,26 +1,18 @@
-# Otimiza-o-da-Cadeia-de-Suprimentos-e-Distribui-o
+### Atividade 03
+# Otimização-da-Cadeia-de-Suprimentos-e-Distribuição
 **Objetivo:** Desenvolver um plano integrado de otimização para a cadeia de suprimentos e distribuição de uma empresa, considerando a minimização de custos, tempos de entrega e a utilização eficiente dos recursos.
-
 ---
-
 ### Cenário
-
 Você é o gerente de logística de uma grande empresa de varejo que opera em várias regiões de um país. A empresa possui três centros de distribuição (CDs) localizados em diferentes cidades e precisa abastecer 10 lojas espalhadas em diversas regiões. Sua tarefa é otimizar o processo de suprimento e distribuição, considerando as seguintes informações:
-
 ---
-
 ### Centros de Distribuição (CDs):
-
 | Centro de Distribuição | Capacidade (unidades) | Localização |
 | --- | --- | --- |
 | **CD1** | 1000 | A |
 | **CD2** | 800 | B |
 | **CD3** | 1200 | C |
-
 ---
-
 ### Lojas e Demanda:
-
 | Loja | Demanda (unidades) | Localização |
 | --- | --- | --- |
 | **Loja 1** | 150 | X |
@@ -33,9 +25,7 @@ Você é o gerente de logística de uma grande empresa de varejo que opera em v�
 | **Loja 8** | 270 | S |
 | **Loja 9** | 190 | R |
 | **Loja 10** | 160 | Q |
-
 ---
-
 Custos de Transporte por Unidade (R$) entre CDs e Lojas:
 CD -> Loja
 Distância (km)
@@ -71,15 +61,11 @@ CD3 -> Q
 160
 7,50
 ### Restrições:
-
 1. **Abastecimento Único:** Cada loja só pode ser abastecida por um único CD.
 2. **Capacidade dos CDs:** As capacidades dos CDs não podem ser ultrapassadas.
 3. **Objetivo:** Minimizar o custo total de transporte.
-
 ---
-
 ### Tarefas
-
 1. **Alocação das Demandas:**
     - **Passo 1:** Determine qual CD irá abastecer cada loja, respeitando as restrições de capacidade dos CDs e minimizando os custos de transporte.
     - **Passo 2:** Preencha a tabela abaixo com a alocação proposta.
@@ -90,35 +76,27 @@ CD3 -> Q
 | Loja 2 | CD1            | 200                   | 1400,00          |
 | Loja 3 | CD2            | 300                   | 1800,00          |
 | ...    | ...            | ...                   | ...              |
-
-2. **álculo dos Custos Totais:**
-    - **Passo 1:** Some os custos de todas as alocações para determinar o custo total de transporte.
-    
+2. **cálculo dos Custos Totais:**
+    - **Passo 1:** Some os custos de todas as alocações para determinar o custo total de transporte.    
     ```markdown
     markdownCopiar código
-    **Custo Total de Transporte:** R$ [valor total]
-    
-    ```
-    
+    **Custo Total de Transporte:** R$ [valor total]  
+    ```   
 3. **Simulação de Cenário de Picos de Demanda:**
     - **Passo 1:** Simule um cenário onde as demandas de todas as lojas aumentam em 20%.
-    - **Passo 2:** Determine se os CDs conseguem suprir a nova demanda e, em caso negativo, identifique quais lojas não serão atendidas.
-    
+    - **Passo 2:** Determine se os CDs conseguem suprir a nova demanda e, em caso negativo, identifique quais lojas não serão atendidas. 
     ```markdown
     markdownCopiar código
     **Resultados da Simulação:**
     - Lojas atendidas: [lista de lojas]
     - Lojas não atendidas: [lista de lojas]
-    - Capacidade excedida no CD1: [quantidade excedida]
-    
-    ```
-    
+    - Capacidade excedida no CD1: [quantidade excedida] 
+    ``` 
 4. **Planejamento de Expansão:**
     - **Passo 1:** Com base na simulação de pico de demanda, proponha uma estratégia de expansão.
     - **Passo 2:** Inclua uma análise de custo-benefício para a expansão sugerida, como abaixo:
       markdownCopiar código
 ## Análise de Custo-Benefício para Expansão
-
 - **Proposta de Expansão:** Aumentar a capacidade do CD1 em 200 unidades.
 - **Custo Estimado de Expansão:** R$ 50.000,00
 - **Benefícios:** Atende ao aumento de demanda com menor custo adicional de transporte.5.
@@ -126,31 +104,16 @@ CD3 -> Q
 - **Passo 1:** Escreva um relatório em Markdown que documente todas as etapas acima
 - markdownCopiar código
 # Relatório de Otimização da Cadeia de Suprimentos
-
 ## Alocação das Demandas
-
 ...
-
 ## Cálculo dos Custos Totais
-
 ...
-
 ## Simulação de Pico de Demanda
-
 ...
-
 ## Planejamento de Expansão
-
 ...
-
 ## Conclusão
 ### Considerações Finais
-
 Revise todas as etapas para garantir que o plano de logística seja robusto e escalável para futuras expansões. Justifique todas as decisões com base em análise de dados e custos.
-
 Este exercício usa tabelas, listas, negrito, e diferentes níveis de cabeçalhos em Markdown para estruturar e organizar as informações de forma clara e eficiente. Ele também proporciona uma experiência prática abrangente, cobrindo vários aspectos da logística e da otimização de cadeias de suprimentos.
-
 ...
-
-
-
